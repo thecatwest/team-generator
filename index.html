@@ -8,39 +8,54 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./src/style.css">
+    <script src="https://kit.fontawesome.com/1223513c02.js" crossorigin="anonymous"></script>
     <title>Hogwarts Team Directory</title>
 </head>
 
 <body>
-    <header>
-        <h1>Hogwarts School of Witchcraft and Wizardry</h1>
+    <header class="bg-secondary text-warning text-center">
+        <h1><i class="fas fa-hat-wizard text-light"></i> Hogwarts School of Witchcraft and Wizardry <i class="fas fa-quidditch text-light"></i></h1>
         <h2>Team Directory</h2>
     </header>
     <main>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-12 justify-content-center">
+                <div class="col-12 justify-content-center space-between d-flex">
 
                     <!-- Manager card -->
-                    <div class="card col-sm-3">
-                        <header class="card-header">
-                            <h2 class="card-title is-centered">Manager</h2>
-                        </header>
+                    <div class="card col-sm-3 bg-warning m-4" style="width: 18rem;">
+                        <div class="card-body">
+                            <h3 class="card-title">Manager</h3>
+                            <h4 class="card-title">Albus Dumbledore</h4>
+                            <h6 class="card-subtitle mb-2 text-muted">ID: 01</h6>
+                            <p class="card-text">Email: <a href="mailto:a.dumbledore@hogwarts.edu"></a>A.Dumbledore@Hogwarts.edu</p>
+                            <p class="card-text">555-505-5555</p>
+                        </div>
                     </div>
 
                     <!-- Engineer card -->
-                    <div class="card col-sm-3">
-                        <header class="card-header">
-                            <h2 class="card-title is-centered">Engineer</h2>
-                        </header>
+                    <div class="card col-sm-3 bg-warning m-4" style="width: 18rem;">
+                        <div class="card-body">
+                            <h3 class="card-title">Engineer</h3>
+                            <h4 class="card-title">Rubeus Hagrid</h4>
+                            <h6 class="card-subtitle mb-2 text-muted">ID: 24</h6>
+                            <p class="card-text">Email: <a href="mailto:r.hagrid@hogwarts.edu"></a>R.Hagrid@Hogwarts.edu</p>
+                            <p class="card-text">555-555-5555</p>
+                            <p class="card-text">Github: <a href="https://www.github.com/thecatwest"></a>Github</p>
+                        </div>
                     </div>
 
                     <!-- Intern card -->
-                    <div class="card col-sm-3">
-                        <header class="card-header">
-                            <h2 class="card-title is-centered">Intern</h2>
-                        </header>
+                    <div class="card col-sm-3 bg-warning m-4" style="width: 18rem;">
+                        <div class="card-body">
+                            <h3 class="card-title">Intern</h3>
+                            <h4 class="card-title">Harry Potter</h4>
+                            <h6 class="card-subtitle mb-2 text-muted">ID: 731</h6>
+                            <p class="card-text">Email: <a href="mailto:h.potter@hogwarts.edu"></a>H.Potter@Hogwarts.edu</p>
+                            <p class="card-text">School: <a href="https://www.hogwarts.edu"></a>www.Hogwarts.edu</p>
+                        </div>
                     </div>
+
                 </div>
             </div>
         </div>
