@@ -43,7 +43,7 @@ Use command node index.js to run the app in your preferred command line interfac
 ## Project Links
 GitHub Repo: https://github.com/thecatwest/team-generator
 Video Walk-through: https://drive.google.com/file/d/1YswQ8GFsVnfewpXfwMPZuHHXncdsDQL4/view
-Sample Generated HTML: 
+Sample Generated HTML: https://github.com/thecatwest/team-generator/blob/main/src/assets/index-sample.html
 
 <!-- Inquiries -->
 ## Inquiries
