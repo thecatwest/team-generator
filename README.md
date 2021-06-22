@@ -4,7 +4,7 @@
 <!-- Project Table of Contents -->
 <details>
   <h2 class="display-inline-block">Description</h2>
-  This app allows users to build a team using command line prompts. The app generates an index.html file with the newly created team formatted and displayed.
+  This is a team generator app.
 
   <summary>
   <h2 class="display-inline-block">Table of Contents</h2>
@@ -19,7 +19,7 @@
 
 <!-- About Project Section -->
 ## About The Project
-
+This app allows users to build a team using command line prompts. The app generates an index.html file with the newly created team formatted and displayed.
 
 
 
